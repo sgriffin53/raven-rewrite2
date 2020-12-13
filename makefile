@@ -1,5 +1,5 @@
 INCLUDE = -I./libs/libchess/src
-SOURCES = $(wildcard src/*.cpp) $(wildcard libs/libchess/src/*.cpp)
+SOURCES = $(wildcard src/*.cpp) $(wildcard libs/libchess/src/*.cpp) $(wildcard src/protocols/*.cpp)
 FLAGS   = -std=c++17
 DFLAGS  = -Wpedantic -Wall -Wextra -Wshadow
 RFLAGS  = -Ofast -DNDEBUG
